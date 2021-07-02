@@ -1,7 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/python python
 """Script to playing brain games."""
 import logging
 import sys
+
 from brain_games.cli import welcome_user
 
 
