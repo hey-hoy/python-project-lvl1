@@ -1,4 +1,3 @@
-#!/usr/bin/python python
 """Script to playing brain games."""
 import logging
 import sys
