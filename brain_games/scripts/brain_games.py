@@ -1,7 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Script to playing brain games."""
-
-from ..cli import welcome_user
+import logging
+import sys
+from brain_games.cli import welcome_user
 
 
 def main():
@@ -11,8 +12,11 @@ def main():
     Returns:
         str
     """
-    print('Welcome to the Brain Games!')
-    print('Hello, {name}!'.format(name=welcome_user()))
+    log = logging.getLogger()
+    log.level = logging.DEBUG
+    log.addHandler(logging.StreamHandler(sys.stderr))
+    log.info('Welcome to the Brain Games!')
+    log.info('Hello, {name}!'.format(name=welcome_user()))
     return 'Game over.'
 
 
