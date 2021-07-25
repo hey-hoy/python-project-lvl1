@@ -10,3 +10,16 @@ def welcome_user():
         str
     """
     return prompt.string('May I have your name? ')
+
+
+def user_answer(question: str):
+    """
+    Return an answer to question.
+
+    Args:
+            question: question to user
+
+    Returns:
+        str
+    """
+    return prompt.string(question)

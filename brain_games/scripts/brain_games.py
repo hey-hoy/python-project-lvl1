@@ -16,7 +16,7 @@ def main():
     log.level = logging.DEBUG
     log.addHandler(logging.StreamHandler(sys.stderr))
     log.info('Welcome to the Brain Games!')
-    log.info('Hello, {name}!'.format(name=welcome_user()))
+    log.info('Hello, {0}!'.format(welcome_user()))
     return 'Game over.'
 
 
