@@ -1,6 +1,5 @@
 """Script to playing brain games."""
 import logging
-import sys
 
 from brain_games.cli import welcome_user
 
@@ -13,8 +12,8 @@ def main():
         str
     """
     log = logging.getLogger()
-    log.level = logging.DEBUG
-    log.addHandler(logging.StreamHandler(sys.stderr))
+    log.level = logging.INFO
+    log.addHandler(logging.StreamHandler())
     log.info('Welcome to the Brain Games!')
     log.info('Hello, {0}!'.format(welcome_user()))
     return 'Game over.'
