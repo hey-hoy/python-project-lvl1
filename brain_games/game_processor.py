@@ -31,9 +31,9 @@ def game(explain, args, question, correct_answer):
         '{0}' is wrong answer ;(.Correct answer was '{1}'.
         Let's try again, {2}!
     """.format(answer, correct_answer(current_args), user_name))
-            return 'Game over.'
-    log.info('Congratulations, {0}!'.format(user_name))
-    return 'Win!'
+            break
+    else:
+        log.info('Congratulations, {0}!'.format(user_name))
 
 
 if __name__ == '__main__':
