@@ -26,12 +26,12 @@ def main():
 
     def question(arguments):
         start_number, add, count, question_number = arguments
-        numbers = [str(start_number+x*add) for x in range(count)]
+        numbers = [str(start_number + x * add) for x in range(count)]
         numbers[question_number] = '..'
         return ' '.join(numbers)
 
     def correct_answer(arguments):
         start_number, add, count, question_number = arguments
-        return str(start_number+question_number*add)
+        return str(start_number + question_number * add)
 
     game(explain, args, question, correct_answer)
