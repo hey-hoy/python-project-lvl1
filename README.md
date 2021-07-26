@@ -7,3 +7,5 @@
 [Example of wining brain-calc](https://asciinema.org/a/427126)
 <br/>
 [Brain-gcd loss example](https://asciinema.org/a/427169)
+<br/>
+[Example of wining brain-progression](https://asciinema.org/a/427173)
