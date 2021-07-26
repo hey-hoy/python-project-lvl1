@@ -13,13 +13,13 @@ def main():
     explain = 'What is the result of the expression?'
 
     def args():
-        max_number = 100
+        MAX_NUMBER = 100
         functions = [[int.__add__, ' + '],
                      [int.__sub__, ' - '],
                      [int.__mul__, ' * ']]
-        return SystemRandom().randrange(max_number), functions[
+        return SystemRandom().randrange(MAX_NUMBER), functions[
             SystemRandom().randrange(len(functions))
-        ], SystemRandom().randrange(max_number)
+        ], SystemRandom().randrange(MAX_NUMBER)
 
     def question(arguments):
         number, func, second_number = arguments

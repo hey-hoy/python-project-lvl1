@@ -14,15 +14,15 @@ def main():
     explain = 'What number is missing in the progression?'
 
     def args():
-        max_start_number = 20
-        max_add = 8
-        min_count = 5
-        max_count = 10
-        count = SystemRandom().randrange(min_count, max_count)
-        return [SystemRandom().randrange(max_start_number),
-                SystemRandom().randrange(max_add),
-                count,
-                SystemRandom().randrange(count)]
+        MAX_START_NUMBER = 20
+        MAX_ADD = 8
+        MIN_COUNT = 5
+        MAX_COUNT = 10
+        COUNT = SystemRandom().randrange(MIN_COUNT, MAX_COUNT)
+        return [SystemRandom().randrange(MAX_START_NUMBER),
+                SystemRandom().randrange(MAX_ADD),
+                COUNT,
+                SystemRandom().randrange(COUNT)]
 
     def question(arguments):
         start_number, add, count, question_number = arguments

@@ -15,8 +15,8 @@ def main():
     explain = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
     def args():
-        max_number = 1000
-        return SystemRandom().randrange(max_number)
+        MAX_NUMBER = 1000
+        return SystemRandom().randrange(MAX_NUMBER)
 
     def question(number):
         return str(number)

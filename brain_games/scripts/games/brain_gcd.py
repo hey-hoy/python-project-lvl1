@@ -15,9 +15,9 @@ def main():
     explain = 'Find the greatest common divisor of given numbers.'
 
     def args():
-        max_number = 100
-        return [SystemRandom().randrange(max_number),
-                SystemRandom().randrange(max_number)]
+        MAX_NUMBER = 100
+        return [SystemRandom().randrange(MAX_NUMBER),
+                SystemRandom().randrange(MAX_NUMBER)]
 
     def question(arguments):
         return ' '.join(str(arguments))

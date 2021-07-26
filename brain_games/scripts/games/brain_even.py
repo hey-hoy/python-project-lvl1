@@ -14,8 +14,8 @@ def main():
     explain = 'Answer "yes" if the number is even, otherwise answer "no".'
 
     def args():
-        max_number = 100
-        return SystemRandom().randrange(max_number)
+        MAX_NUMBER = 100
+        return SystemRandom().randrange(MAX_NUMBER)
 
     def question(number):
         return number

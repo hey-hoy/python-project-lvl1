@@ -19,8 +19,8 @@ def game(explain, args, question, correct_answer):
     user_name = welcome_user()
     log.info('Hello, {0}!'.format(user_name))
     log.info(explain)
-    questions_count = 3
-    for _index in range(0, questions_count):
+    QUESTIONS_COUNT = 3
+    for _index in range(0, QUESTIONS_COUNT):
         current_args = args()
         answer = user_answer('Question: {0}\n'
                              'Your answer: '.format(question(current_args)))
