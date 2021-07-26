@@ -20,7 +20,7 @@ def main():
                 SystemRandom().randrange(MAX_NUMBER)]
 
     def question(arguments):
-        return ' '.join(str(arguments))
+        return ' '.join(str(x) for x in arguments)
 
     def correct_answer(arguments):
         number, second_number = arguments
