@@ -22,7 +22,7 @@ def main():
         return [SystemRandom().randrange(max_start_number),
                 SystemRandom().randrange(max_add),
                 count,
-                SystemRandom().randrange(count+1)]
+                SystemRandom().randrange(count)]
 
     def question(arguments):
         start_number, add, count, question_number = arguments
