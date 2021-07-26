@@ -9,3 +9,5 @@
 [Brain-gcd loss example](https://asciinema.org/a/427169)
 <br/>
 [Example of wining brain-progression](https://asciinema.org/a/427173)
+<br/>
+[Brain-prime loss example](https://asciinema.org/a/427175)
