@@ -22,8 +22,8 @@ def run(game):
         if user_answer == answer:
             log.info('Correct!')
         else:
-            log.info("'{0}' is wrong answer ;(.Correct answer was '{1}'.\n"
-                     "Let's try again, {2}!".format(user_answer, answer, user_name))
+            log.info("""'{0}' is wrong answer ;(.Correct answer was '{1}'.
+Let's try again, {2}!""".format(user_answer, answer, user_name))
             break
     else:
         log.info('Congratulations, {0}!'.format(user_name))

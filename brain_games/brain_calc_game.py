@@ -12,5 +12,6 @@ def question_answer():
     number = SystemRandom().randrange(MAX_NUMBER)
     function = FUNCTIONS[SystemRandom().randrange(len(FUNCTIONS))]
     second_number = SystemRandom().randrange(MAX_NUMBER)
-    return str(number) + function[1] + str(second_number), str(function[0](number, second_number))
-
+    question = str(number) + function[1] + str(second_number)
+    answer = str(function[0](number, second_number))
+    return question, answer

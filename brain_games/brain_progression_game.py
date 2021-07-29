@@ -16,4 +16,3 @@ def question_answer():
     numbers = [str(start_number + x * add) for x in range(count)]
     numbers[question_number] = '..'
     return ' '.join(numbers), str(start_number + question_number * add)
-

@@ -13,4 +13,6 @@ def question_answer():
     """Return one question and answer for greatest common divisor game."""
     number = SystemRandom().randrange(MAX_NUMBER)
     second_number = SystemRandom().randrange(MAX_NUMBER)
-    return str(number) + ' ' + str(second_number), str(gcd(number, second_number))
+    question = str(number) + ' ' + str(second_number)
+    answer = str(gcd(number, second_number))
+    return question, answer
