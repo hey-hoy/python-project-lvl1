@@ -10,7 +10,7 @@ def is_prime(number):
     """Is it prime."""
     if number < 4:
         return True
-    for step in range(2, int(sqrt(number))):
+    for step in range(2, int(sqrt(number)) + 1):
         if number % step == 0:
             return False
     return True
