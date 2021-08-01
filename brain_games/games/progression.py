@@ -18,7 +18,7 @@ def question_answer():
     start_number = randint(0, MAX_START_NUMBER)
     add = randint(0, MAX_ADD)
     count = randint(MIN_COUNT, MAX_COUNT)
-    question_number = randint(0, count-1)
+    question_number = randint(0, count - 1)
     numbers = generate_progression(start_number, add, count)
     numbers[question_number] = '..'
     return ' '.join(numbers), str(start_number + question_number * add)
