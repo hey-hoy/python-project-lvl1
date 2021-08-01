@@ -1,12 +1,10 @@
 """Run calculator game."""
 from brain_games.game_engine import run
-import brain_games.brain_calc_game as game
+from brain_games.games import calc as game
 
 
 def main():
-    """
-    Run calculator game.
-    """
+    """Run calculator game."""
     run(game)
 
 

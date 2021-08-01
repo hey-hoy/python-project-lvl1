@@ -1,12 +1,10 @@
 """Run even check game."""
 from brain_games.game_engine import run
-import brain_games.brain_even_game as game
+from brain_games.games import even as game
 
 
 def main():
-    """
-    Run even check game.
-    """
+    """Run even check game."""
     run(game)
 
 

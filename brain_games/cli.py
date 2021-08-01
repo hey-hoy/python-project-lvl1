@@ -16,10 +16,9 @@ def ask(question: str):
     """
     Return an answer to question.
 
-    Args:
-            question: question to user
-
-    Returns:
-        str
+    Attributes
+    ----------
+    question : str
+        Question to user
     """
     return prompt.string(question)
