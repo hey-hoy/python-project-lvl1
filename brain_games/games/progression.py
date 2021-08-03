@@ -16,9 +16,11 @@ def generate_progression(start, addition, length):
 def question_answer():
     """Return one question and answer for progression game."""
     start_number = randint(0, MAX_START_NUMBER)
-    add = randint(0, MAX_ADD)
+    delta = randint(0, MAX_ADD)
     count = randint(MIN_COUNT, MAX_COUNT)
-    question_number = randint(0, count - 1)
-    numbers = generate_progression(start_number, add, count)
-    numbers[question_number] = '..'
-    return ' '.join(numbers), str(start_number + question_number * add)
+    question_position = randint(0, count - 1)
+    numbers = generate_progression(start_number, delta, count)
+    numbers[question_position] = '..'
+    question = ' '.join(numbers)
+    answer = str(start_number + question_position * delta)
+    return question, answer

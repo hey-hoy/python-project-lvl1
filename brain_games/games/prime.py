@@ -8,6 +8,8 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(number):
     """Is it prime."""
+    if number < 1:
+        return False
     if number < 4:
         return True
     for step in range(2, int(sqrt(number)) + 1):

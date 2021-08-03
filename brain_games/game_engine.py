@@ -1,6 +1,5 @@
 """Engine to all games."""
 from brain_games.cli import ask
-from brain_games.cli import welcome_user
 
 QUESTIONS_COUNT = 3
 
@@ -8,7 +7,7 @@ QUESTIONS_COUNT = 3
 def run(game):
     """Run game."""
     print('Welcome to the Brain Games!')
-    user_name = welcome_user()
+    user_name = ask('May I have your name? ')
     print('Hello, {0}!'.format(user_name))
     print(game.DESCRIPTION)
     for _ in range(0, QUESTIONS_COUNT):
