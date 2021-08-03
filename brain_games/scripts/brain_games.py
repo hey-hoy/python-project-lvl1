@@ -1,22 +1,11 @@
-"""Script to playing brain games."""
-import logging
-
-from brain_games.cli import welcome_user
+"""Script to welcome brain games."""
+from brain_games.cli import ask
 
 
 def main():
-    """
-    Run the Brain Games.
-
-    Returns:
-        str
-    """
-    log = logging.getLogger()
-    log.level = logging.INFO
-    log.addHandler(logging.StreamHandler())
-    log.info('Welcome to the Brain Games!')
-    log.info('Hello, {0}!'.format(welcome_user()))
-    return 'Game over.'
+    """Run the Brain Games."""
+    print('Welcome to the Brain Games!')
+    print('Hello, {0}!'.format(ask('May I have your name? ')))
 
 
 if __name__ == '__main__':
