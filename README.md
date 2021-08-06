@@ -1,5 +1,12 @@
-Brain games. First project of python-developer education on hexlet.
-
+## Brain games
+First project of python-developer education on hexlet.
+### Download
+Download the latest version from [here](https://github.com/hey-hoy/python-project-lvl1/blob/main/dist/hexlet_code-0.1.0-py3-none-any.whl).
+### Install
+To install, run: 
+```
+python -m pip install hexlet_code-0.1.0-py3-none-any.whl
+```
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/hey-hoy/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/hey-hoy/python-project-lvl1/actions)
 ![Project Status](https://github.com/hey-hoy/python-project-lvl1/actions/workflows/main.yml/badge.svg)
