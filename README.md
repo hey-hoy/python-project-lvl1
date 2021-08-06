@@ -30,7 +30,7 @@ brain-prime
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/hey-hoy/python-project-lvl1.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/hey-hoy/python-project-lvl1/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/hey-hoy/python-project-lvl1.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/hey-hoy/python-project-lvl1/context:python)
 <br/>
-Examples of playing games: 
+### Examples of playing games: 
 <br/>
 [Example of wining brain-even](https://asciinema.org/a/427076)
 <br/>
