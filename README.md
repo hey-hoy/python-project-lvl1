@@ -1,13 +1,13 @@
 ## Brain games
 First project of python-developer education on hexlet.
-### Download
+### Download:
 Download the latest version from [here](https://github.com/hey-hoy/python-project-lvl1/raw/main/dist/hexlet_code-0.1.0-py3-none-any.whl).
-### Install
+### Install:
 To install, run: 
 ```
 python -m pip install hexlet_code-0.1.0-py3-none-any.whl
 ```
-### Play games
+### Play games:
 ```
 brain-even
 ```
@@ -29,9 +29,7 @@ brain-prime
 ### LGTM code analyzer status:
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/hey-hoy/python-project-lvl1.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/hey-hoy/python-project-lvl1/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/hey-hoy/python-project-lvl1.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/hey-hoy/python-project-lvl1/context:python)
-<br/>
 ### Examples of playing games: 
-<br/>
 [Example of wining brain-even](https://asciinema.org/a/427076)
 <br/>
 [Example of wining brain-calc](https://asciinema.org/a/427126)
