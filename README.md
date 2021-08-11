@@ -1,12 +1,5 @@
 ## Brain games
 First project of python-developer education on hexlet.
-### Download:
-Download the latest version from [here](https://github.com/hey-hoy/python-project-lvl1/raw/main/dist/hexlet_code-0.1.0-py3-none-any.whl).
-### Install:
-To install, run: 
-```
-python -m pip install hexlet_code-0.1.0-py3-none-any.whl
-```
 ### Play games:
 ```
 brain-even
